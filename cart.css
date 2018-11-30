@@ -1,0 +1,39 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url( http://wallpapers9.org/wp-content/uploads/2014/12/Red-Christmas-Background-1.jpg)
+}
+.header{
+    list-style-type: none;
+    background-color:darkslategray;
+}
+.header ul{
+    margin: 0;
+    text-align: center;
+}
+.header li {
+    display: inline-block;
+
+    }
+.header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    }   
+
+    span.price {
+        float: right;
+        color: grey;
+      }
+      
+      .col-25
+      {
+        padding: 0 16px;
+      }      
+      .container {
+        background-color: white;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
+      }

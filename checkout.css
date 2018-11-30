@@ -1,0 +1,75 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url( http://wallpapers9.org/wp-content/uploads/2014/12/Red-Christmas-Background-1.jpg)
+}
+.header{
+    list-style-type: none;
+    background-color:darkslategray;
+}
+.header ul{
+    margin: 0;
+    text-align: center;
+}
+.header li {
+    display: inline-block;
+
+    }
+.header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    }   
+    .form-container {
+        background-color:white;
+        width: 500px;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .padding-15{
+        padding:15px;
+    }
+    
+    .text-center{
+        text-align: center;
+    }
+    
+    .wight-200{
+    width:200px;
+    }
+    
+    .block{
+        display: inline-block
+    }
+    
+    .wigth-100{
+        width: 100px;
+    }
+    
+    .width-400{
+        width: 400px;
+    }
+    
+    .height-200{
+        height: 200px;
+    }
+    
+    .submit-button{
+        background: black;
+        color: white;
+        padding: 10px;
+        
+    }
+    
+    .special-input{
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+        border-bottom: 1px solid #ccc;
+    }
+    .special-input:focus,
+    .special-input:hover{
+        border-bottom-color: #333;
+    }

@@ -1,0 +1,66 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url( http://wallpapers9.org/wp-content/uploads/2014/12/Red-Christmas-Background-1.jpg)
+}
+.header{
+    list-style-type: none;
+    background-color:darkslategray;
+}
+.header ul{
+    margin: 0;
+    text-align: center;
+}
+.header li {
+    display: inline-block;
+
+    }
+.header li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    }   
+
+    .display-4
+    {
+        color : green;
+    }
+
+    .jumbotron
+    {
+        margin-top: 20px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }   
+
+    .background-image{
+        background:url("bg3.jpg");
+        background-size:cover;
+        padding: 20px 22px;
+    }
+    
+    
+.no-gutters {
+        margin-right: 0;
+        margin-left: 0;
+}
+.no-gutters > .col,
+.no-gutters > [class*="col-"] 
+{
+          padding-right: 0;
+          padding-left: 0;
+}
+.yourElement
+{
+    position: relative;
+    animation-name: heartBeat;
+    animation-duration: 4s;
+    animation-delay: 2s;
+}
+
+.aboutimage
+{
+    width:300px;
+    height: 200px;
+}
